@@ -4,7 +4,8 @@
   "description": "A small script based data scrapper for Fantasy Football players and theirs stats",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js"
+    "clean": "npx rimraf data && mkdir data",
+    "start": "npm run clean && node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -25,5 +26,8 @@
   "dependencies": {
     "dotenv": "^16.0.3",
     "puppeteer": "^18.2.1"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2"
   }
 }
