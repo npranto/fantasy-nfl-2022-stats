@@ -1,0 +1,29 @@
+{
+  "name": "fantasy-nfl-2022-stats",
+  "version": "0.0.1",
+  "description": "A small script based data scrapper for Fantasy Football players and theirs stats",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npranto/fantasy-nfl-2022-stats.git"
+  },
+  "keywords": [
+    "fantasy",
+    "football",
+    "nfl",
+    "stats"
+  ],
+  "author": "Nazmuz Pranto <npranto@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/npranto/fantasy-nfl-2022-stats/issues"
+  },
+  "homepage": "https://github.com/npranto/fantasy-nfl-2022-stats#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "puppeteer": "^18.2.1"
+  }
+}
